@@ -251,8 +251,8 @@ def scrape_race_data(race_id):
 
 def main():
     # 1. 期間設定 (YYYYMMDD)
-    start_date = "20240101"
-    end_date = "20241231" # テスト用に短く設定しています。実際は月単位などで指定。
+    start_date = "20230101"
+    end_date = "20231231" # テスト用に短く設定しています。実際は月単位などで指定。
 
     # 2. 有効なIDを取得 (カレンダー/リストページを巡回)
     target_race_ids = get_race_ids_for_period(start_date, end_date)
